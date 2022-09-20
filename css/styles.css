@@ -1,0 +1,97 @@
+html {
+  font-family: inherit;
+}
+
+.container {
+  display: flex;
+}
+.container .presentation {
+  width: 50%;
+  padding-top: 13%;
+  padding-left: 11%;
+}
+.container .presentation img {
+  margin-left: -7%;
+  width: 300px;
+}
+.container .presentation p {
+  margin-top: -15px;
+  font-size: 28px;
+}
+.container .log {
+  width: 50%;
+  padding-top: 10%;
+}
+.container .log .login {
+  display: flex;
+  width: 60%;
+  margin-left: 15%;
+}
+.container .log .login form {
+  background-color: white;
+  width: 100%;
+  box-shadow: 0 0 4px #654965;
+  border-radius: 5px;
+}
+.container .log .login input {
+  height: 50px;
+  margin: 15px 15px 0 15px;
+  width: 93%;
+}
+.container .log .login input:focus {
+  border: none;
+  border: 1px solid blue;
+}
+.container .log .login .btn-primary {
+  margin: 5px 15px 0 15px;
+  width: 93%;
+  height: 14%;
+  font-family: inherit;
+  font-size: 20px;
+  font-weight: bold;
+}
+.container .log .login ul {
+  text-align: center;
+  margin-top: 12px;
+}
+.container .log .login ul a {
+  text-decoration: none;
+}
+.container .log .login ul a:hover {
+  text-decoration: underline;
+}
+.container .log .login .separator {
+  width: 50vh;
+  border: none;
+  border-top: 1px solid rgb(221, 206, 206);
+}
+.container .log .login .btn-success {
+  background-color: #42B72A;
+  color: white;
+  height: 50px;
+  margin-top: 7%;
+  margin-bottom: 7%;
+  margin-left: 30%;
+  border-radius: 7px;
+  font-weight: bold;
+  font-family: inherit;
+}
+.container .log .new {
+  padding-top: 20px;
+  margin-left: 16%;
+}
+.container .log .new p {
+  font-size: 14px;
+  margin-left: 1%;
+}
+.container .log .new p a {
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+  font-size: 14px;
+}
+.container .log .new p a:hover {
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=styles.css.map */
